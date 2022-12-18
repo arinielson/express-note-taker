@@ -48,6 +48,8 @@ The following images show the web application's appearance and functionality:
 
 GitHub: https://github.com/arinielson/express-note-taker
 
+Website: https://arinielson.github.io/express-note-taker/
+
 
 ## Credits
 
