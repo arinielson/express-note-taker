@@ -2,5 +2,9 @@
     {
         "title":"Test Title",
         "text":"Test text"
+    },
+    {
+        "title": "Study Back-End Code",
+        "text": "Take time to study Express, SQL, ORM, & MVC"
     }
 ]
