@@ -1,5 +1,4 @@
 const express = require("express");
-const { v4: uuidv4 } = require("uuid");
 const fs = require("fs");
 const cors = require("cors");
 
@@ -41,19 +40,15 @@ app.post("/api/notes", async (req, res) => {
   try {
     const notes = await readFileAsync("./db/db.json", "utf-8");
     const newNote = req.body;
-    
-    const newNoteID = uuidv4();
-    const newNoteData = {
-      
-      id: newNoteID,
+    const newNoteData = {            
       title: newNote.title,
       text: newNote.text,
     };
+    
     const parseNote = JSON.parse(notes);
     
     parseNote.push(newNoteData);
     res.json(newNoteData);
-
     
     await writeFileAsync("./db/db.json", JSON.stringify(parseNote));
     
