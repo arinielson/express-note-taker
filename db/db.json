@@ -1,14 +1,4 @@
 {
     "notes": [
-        {
-            "title":"Test Title",
-            "text":"Test text",
-            "id": "83b85477-cb71-43c9-b22b-0976ca7f5a45"
-        },
-        {
-            "title": "Study Back-End Code",
-            "text": "Take time to study Express, SQL, ORM, & MVC",
-            "id": "94c85455-fb76-26f9-l33t-0856ba6e4c62"
-        }
-    ]
+    ] 
 }
